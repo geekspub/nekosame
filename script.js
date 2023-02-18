@@ -9,7 +9,7 @@ btn.addEventListener('click', () => {
     console.log(name, "name")
     nameInput.value = "";
     
-    if (name == "shivani" || name == "shivani muthoju" || name == "spandana" || name=="spandana katta")
+    if (name == "shivani" || name == "shivani muthoju" || name == "spandana" || name == "spandana katta")
     {
         text.innerText = "Emi ra Balraju Emi ra Deshaniki ne valla upayogam";
         prompt.style.display = "grid";
