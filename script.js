@@ -5,7 +5,7 @@ let prompt = document.querySelector(".prompt");
 
 btn.addEventListener('click', () => {
     let name = nameInput.value;
-    name = name.toLowercase();
+    name = name.toLowerCase();
     console.log(name, "name")
     nameInput.value = "";
     
